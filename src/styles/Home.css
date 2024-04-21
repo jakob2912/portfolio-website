@@ -1,29 +1,42 @@
-/* Home Styles */
-#home {
-  background-color: #f9f9f9;
-}
-
-.homeSection {
-  background-color: #f9f9f9;
-  padding: 50px 0; 
-  text-align: left;
-  padding: 0 1rem;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 20px;
-}
-
-
 .heading-home {
   margin-top: 5rem;
   font-size: 3rem;
   padding: 2rem;
+  color: #333; 
 }
 
 .home-picture {
   max-width: 100%;
-  
+  border-radius: 10px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  overflow: hidden; 
+}
+
+.home-picture img {
+  width: 100%; 
+  transition: transform 0.5s ease; 
+}
+
+.home-picture:hover img {
+  transform: scale(1.1); 
+  transform-origin: center; 
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 2rem; 
+}
+
+.animateLeft,
+.animateRight {
+  transition: transform 0.5s ease; 
+}
+
+.animateLeft:hover {
+  transform: translateX(-10px); 
+}
+
+.animateRight:hover {
+  transform: translateX(10px); 
 }
