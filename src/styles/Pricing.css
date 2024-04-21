@@ -1,0 +1,37 @@
+.pricingSection {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.card {
+  background-color: #000;
+  color: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.discounted-price {
+  font-size: 18px;
+}
+
+.benefits {
+  text-align: left;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.benefits li {
+  margin-bottom: 10px;
+}
+
+.benefits li svg {
+  color: #00f; /* Blaue Farbe für Icons */
+}

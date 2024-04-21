@@ -1,0 +1,29 @@
+/* Home Styles */
+#home {
+  background-color: #f9f9f9;
+}
+
+.homeSection {
+  background-color: #f9f9f9;
+  padding: 50px 0; 
+  text-align: left;
+  padding: 0 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+
+.heading-home {
+  margin-top: 5rem;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.home-picture {
+  max-width: 100%;
+  
+}

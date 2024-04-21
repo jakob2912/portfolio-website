@@ -1,0 +1,42 @@
+/* About Section Styles */
+#about {
+  background-color: #eaf4ff;
+}
+
+.aboutSection {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.content {
+  float: left;
+  width: 50%;
+  margin-right: 1rem;
+}
+
+.content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.image {
+  float: right;
+  width: 40%;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
