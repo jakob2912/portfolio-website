@@ -5,12 +5,18 @@
 }
 
 .card {
-  background-color: #000;
-  color: #fff;
+  background-color: #f5f5f5;
+  color: #333;
   width: 300px;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
 }
 
 .price {
@@ -20,6 +26,10 @@
 
 .discounted-price {
   font-size: 18px;
+}
+
+.original-price {
+  text-decoration: line-through;
 }
 
 .benefits {
@@ -33,5 +43,23 @@
 }
 
 .benefits li svg {
-  color: #00f; /* Blaue Farbe für Icons */
+  color: #61dafb;
+}
+
+.blue-text {
+  color: #61dafb;
+}
+
+.highlight {
+  background-color: #61dafb;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.elite {
+  background-color: #1a1a1a;
+  color: #fff;
 }
