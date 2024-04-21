@@ -8,18 +8,18 @@ const Services = () => {
         <h2>Meine Dienstleistungen</h2>
         <div className="service animateFadeIn">
           <div className="icon">
-            <FaSearch />
+            <FaSearch className="service-icon" />
           </div>
           <div className="text">
             <h3>SEO Optimization</h3>
             <p>
-              Als Programmierer liegt mir die SEO-Optimierung Ihrer Website am Herzen. Mit maßgeschneiderten Strategien verbessere ich Ihr Ranking in den Suchmaschinenergebnissen, um  Ihr Unternehmen online sichtbarer zu machen.
+              Als Programmierer liegt mir die SEO-Optimierung Ihrer Website am Herzen. Mit maßgeschneiderten Strategien verbessere ich Ihr Ranking in den Suchmaschinenergebnissen, um Ihr Unternehmen online sichtbarer zu machen.
             </p>
           </div>
         </div>
         <div className="service animateFadeIn">
           <div className="icon">
-            <FaDesktop />
+            <FaDesktop className="service-icon" />
           </div>
           <div className="text">
             <h3>Erstellen von Websites</h3>
@@ -30,7 +30,7 @@ const Services = () => {
         </div>
         <div className="service animateFadeIn">
           <div className="icon">
-            <FaGlobe />
+            <FaGlobe className="service-icon" />
           </div>
           <div className="text">
             <h3>Domain Management</h3>

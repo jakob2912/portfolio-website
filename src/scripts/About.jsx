@@ -14,7 +14,7 @@ const AboutUs = () => {
             Mein Ziel ist es, meinen Kunden dabei zu helfen, ihre Online-Präsenz zu verbessern und ihre Ziele im digitalen Raum zu erreichen. Ich glaube daran, bei jedem Projekt einen individuellen Ansatz zu verfolgen, um sicherzustellen, dass die erstellten Websites die einzigartige Identität und die Anforderungen meiner Kunden widerspiegeln.
           </p>
           <p>
-            Als Einzelunternehmer schätze ich die Kommunikation und Zusammenarbeit mit meinen Kunden. Ich höre aufmerksam zu, um ihre Bedürfnisse zu verstehen, und arbeite eng mit ihnen zusammen, um maßgeschneiderte Lösungen zu entwickeln, die ihre Ziele erreichen.
+            Als Programmierer und Webdesigner schätze ich die Kommunikation und Zusammenarbeit mit meinen Kunden. Ich höre aufmerksam zu, um ihre Bedürfnisse zu verstehen, und arbeite eng mit ihnen zusammen, um maßgeschneiderte Lösungen zu entwickeln, die ihre Ziele erreichen.
           </p>
           <p>
             Ich bin stolz darauf, hochwertige Websites zu erstellen, die nicht nur gut aussehen, sondern auch eine großartige Benutzererfahrung bieten. Kontaktieren Sie mich noch heute, um zu erfahren, wie ich dazu beitragen kann, Ihre Online-Präsenz zu verbessern.
