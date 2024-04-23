@@ -40,3 +40,24 @@
   max-width: 100%;
   height: auto;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .content {
+    float: none;
+    width: 90%;
+    margin-right: 0;
+    margin-left: 5%;
+    text-align: left;
+  }
+
+  .image {
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+  }
+}

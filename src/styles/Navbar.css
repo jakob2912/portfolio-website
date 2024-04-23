@@ -69,3 +69,11 @@ nav ul li a {
   color: #888;
 }
 
+/* Make it mobile friendly */
+
+@media only screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}  
+

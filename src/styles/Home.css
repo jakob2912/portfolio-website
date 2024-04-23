@@ -1,5 +1,4 @@
 .heading-home {
-  margin-top: 5rem;
   font-size: 3rem;
   padding: 2rem;
   color: #333; 
@@ -8,7 +7,6 @@
 .home-picture {
   max-width: 100%;
   border-radius: 10px; 
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
   overflow: hidden; 
 }
 
@@ -17,10 +15,7 @@
   transition: transform 0.5s ease; 
 }
 
-.home-picture:hover img {
-  transform: scale(1.1); 
-  transform-origin: center; 
-}
+
 
 .grid {
   display: grid;
@@ -28,15 +23,67 @@
   gap: 2rem; 
 }
 
+@media (min-width: 768px){
+  .heading-home {
+    margin-top: 5rem;
+  }
+
+  .home-picture {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .animateLeft:hover {
+    transform: translateX(-10px); 
+  }
+  
+  .animateRight:hover {
+    transform: translateX(10px); 
+  }
+
+  .home-picture:hover img {
+    transform: scale(1.1); 
+    transform-origin: center; 
+  }
+}
+
 .animateLeft,
 .animateRight {
   transition: transform 0.5s ease; 
 }
+  
+/* Make it mobile friendly */ 
+@media only screen and (max-width: 768px) {
+  .homeSection {
+    text-align: left;
+    max-width: 1fr;
+  }
 
-.animateLeft:hover {
-  transform: translateX(-10px); 
-}
+  .heading-home {
+    font-size: 2rem;
+    margin-left: 0;
+    margin-bottom: 2vh;
+    padding: 0;
+  }
 
-.animateRight:hover {
-  transform: translateX(10px); 
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .animateLeft,
+  .animateRight {
+    margin-bottom: 30px;
+  }
+  
+  .home-picture {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .home-picture img {
+    width: 1fr;
+    height: 50vh;
+    object-fit: cover;
+    object-position: 70% 100%;
+  }
 }
