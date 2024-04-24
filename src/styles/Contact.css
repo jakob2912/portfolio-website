@@ -1,6 +1,7 @@
 .contactSection {
   padding: 100px 0;
   text-align: center;
+  background-color: white;
 }
 
 .contactForm {
@@ -46,4 +47,15 @@ textarea {
 
 .container h2 {
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .contactForm {
+    width: 1fr;
+  }
+
+  .submitButton {
+    width: 100%;
+    padding: 1rem 0;
+  }
 }

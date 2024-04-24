@@ -15,8 +15,10 @@
   transition: transform 0.3s ease;
 }
 
-.card:hover {
-  transform: translateY(-10px);
+@media (min-width: 768px) {
+  .card:hover {
+    transform: translateY(-10px);
+  }
 }
 
 .price {

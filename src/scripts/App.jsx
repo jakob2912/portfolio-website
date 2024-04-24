@@ -39,9 +39,9 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <Pricing />
       <About />
       <Services />
+      <Pricing />
       <Contact />
       <Footer />
     </>
