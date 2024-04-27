@@ -7,6 +7,7 @@ import Services from './Services.jsx';
 import Pricing from './Pricing.jsx';
 import Contact from './Contact.jsx';
 import Footer from './Footer.jsx';
+import Carousel from './Carousel.jsx';
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <Carousel/>
       <About />
       <Services />
       <Pricing />
