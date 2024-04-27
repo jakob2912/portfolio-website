@@ -1,92 +1,79 @@
-.heading-home {
-  font-size: 3rem;
-  padding: 2rem;
-  color: #333; 
-}
-
-.home-picture {
-  max-width: 100%;
-  border-radius: 10px; 
-  overflow: hidden; 
-}
-
-.home-picture img {
-  width: 100%; 
-  transition: transform 0.5s ease; 
-}
-
 .homeSection {
-  background-color: white;
+  margin-top: 5rem;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+  color: white; /* White text */
   padding: 5vh;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .homeSection { 
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
-  gap: 2rem; 
+  grid-template-columns: 1fr; 
+  margin-bottom: 8rem;
 }
 
-@media (min-width: 768px){
-  .heading-home {
-    margin-top: 5rem;
-  }
+.content {
+  text-align: center; 
+}
 
-  .home-picture {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  }
+.heading-home {
+  font-size: 3rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
 
-  .animateLeft:hover {
-    transform: translateX(-10px); 
-  }
-  
-  .animateRight:hover {
-    transform: translateX(10px); 
-  }
+.home-button {
+  margin-top: 2rem;
+}
 
-  .home-picture:hover img {
-    transform: scale(1.1); 
-    transform-origin: center; 
+.logo-div {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .logo-img {
+    position: absolute;
+    right: 1rem;
+    width: 100px; 
+    height: auto; 
+    margin-bottom: 20px; 
   }
 }
 
-.animateLeft,
-.animateRight {
-  transition: transform 0.5s ease; 
-}
-  
-/* Make it mobile friendly */ 
-@media only screen and (max-width: 768px) {
-  .homeSection {
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .logo-div {
+    width: 70px; 
+    display: block;
+  }
+
+  .logo-img {
+    display: block;
+    width: 100px; 
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+ 
+  .content {
     text-align: left;
     max-width: 1fr;
   }
 
   .heading-home {
-    font-size: 2rem;
-    margin-left: 0;
-    margin-bottom: 2vh;
-    padding: 0;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-  
-  .animateLeft,
-  .animateRight {
-    margin-bottom: 30px;
-  }
-  
-  .home-picture {
-    margin-bottom: 30px;
     text-align: left;
-  }
-  
-  .home-picture img {
-    width: 1fr;
-    height: 50vh;
-    object-fit: cover;
-    object-position: 70% 100%;
+    max-width: 1fr;
+    font-size: 2rem;
+    padding: 0;
   }
 }

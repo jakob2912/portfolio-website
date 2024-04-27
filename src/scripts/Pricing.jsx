@@ -14,7 +14,6 @@ const Pricing = () => {
           <li><FaCheck /> Gültig bei Verwendung als Referenz</li>
           <li><FaCheck /> Zusätzlich: 20€/ Monat oder 200€/Jahr für SEO und Domain Management</li>
           <li><FaCheck /> Unbegrenzte E-Mail-Unterstützung</li>
-          <li><FaCheck /> 24/7 Website-Monitoring</li>
         </ul>
       </div>
       <div className="card">
@@ -41,10 +40,10 @@ const Pricing = () => {
           <li><FaCheck /> Priorisierter Kundendienst</li>
           <li><FaCheck /> High-End-Design und UX-Optimierung</li>
           <li><FaCheck /> Schnelle Website-Ladezeiten</li>
-          <li><FaCheck /> Premium-Hosting</li>
-          <li><FaCheck /> Exklusiver VIP-Support</li>
+          <li><FaCheck /> Exklusiver Support</li>
           <li><FaCheck /> Premium-Design und maßgeschneiderte Grafiken</li>
           <li><FaCheck /> Priorisierte Projektbearbeitung</li>
+          <li><FaCheck /> 24/7 Website-Monitoring</li>
         </ul>
       </div>
     </section>
