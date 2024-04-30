@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaCheck } from 'react-icons/fa'; 
+import "../styles/Pricing.css";
 
 const Pricing = () => {
   return (

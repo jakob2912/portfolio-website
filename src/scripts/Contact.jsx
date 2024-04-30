@@ -24,15 +24,16 @@ function Contact() {
         body: JSON.stringify(formData)
       });
 
-      if (response.ok) {
-        alert('Email erfolgreich gesendet');
-      } else {
-        alert('Fehler beim senden, versuchen sie es spaeter erneut');
+      if (!response.ok) {
+        throw new Error('Failed to submit form');
       }
+  
+      alert('Email erfolgreich gesendet');
     } catch (error) {
-      alert('Fehler beim senden, versuchen sie es spaeter erneut');
+      console.error('Error submitting form:', error);
+      alert('Fehler beim senden, versuchen sie es später erneut');
     }
-  }
+  };
 
   
   return (

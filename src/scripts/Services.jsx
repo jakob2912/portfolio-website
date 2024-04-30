@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaSearch, FaDesktop, FaGlobe } from 'react-icons/fa';
+import "../styles/Services.css";
 
 const Services = () => {
   return (

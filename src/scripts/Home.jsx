@@ -1,7 +1,7 @@
-// JavaScript für die Verwendung von State und Effekten
 import React, { useState, useEffect } from 'react';
 import logo from "../assets/logo.png"
 import backgroundImage from '../assets/background-home.png'; 
+import "../styles/Home.css";
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
