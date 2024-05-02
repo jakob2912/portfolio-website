@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 8800;
 app.use(bodyParser.json());
 
 // Serve static files from the 'dist' directory
-app.use('/portfolio-website', express.static(path.join(__dirname, 'dist')));
+app.use('/', express.static(path.join(__dirname, 'dist')));
 
 // Route for handling form submission
 app.post('/submit-form', async (req, res) => {
